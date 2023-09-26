@@ -119,14 +119,14 @@ h6 {
 }
 
 #header .logo {
-  font-size: 20px;
+  font-size: 16px;
   margin: 0;
   padding: 0;
   line-height: 1.2;
   font-weight: 500;
   letter-spacing: 2px;
   text-transform: uppercase;
-  width: 200px;
+  width: 150px;
 }
 
 #header .logo a {
@@ -881,6 +881,7 @@ section {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+  text-align: justify;
 }
 
 .services .icon-box:hover {
@@ -1116,12 +1117,16 @@ section {
 
 .team .member .pic {
   overflow: hidden;
-  width: 180px !important;
-  border-radius: 100px;
+  width: 140px !important;
+  height: 140px !important;
+  /* border-radius: 100%; */
 }
 
 .team .member .pic img {
   transition: ease-in-out 0.3s;
+  border-radius: 100%;
+  width: 150px;
+  height: 140px;
 }
 
 .team .member:hover {
@@ -1130,6 +1135,7 @@ section {
 
 .team .member .member-info {
   padding-left: 30px;
+  /* max-width: 195px; */
 }
 
 .team .member h4 {
